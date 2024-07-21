@@ -66,11 +66,11 @@ $ bun run dev
 
 ```bash
 # For windows
-$ pnpm build:win
+$ bun run build:win
 
 # For macOS
-$ pnpm build:mac
+$ bun run build:mac
 
 # For Linux
-$ pnpm build:linux
+$ bun run build:linux
 ```
