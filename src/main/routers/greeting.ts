@@ -1,5 +1,5 @@
 import { router, publicProcedure } from '../trpc'
-import { db } from '../drizzle'
+import { db } from '../db'
 import { users } from '../db/schema'
 
 export const greetingRouter = router({
