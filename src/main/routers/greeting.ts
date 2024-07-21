@@ -14,7 +14,6 @@ export const greetingRouter = router({
     const result = await db
       .insert(users)
       .values({
-        id: '1',
         textModifiers: 'some value'
       })
       .returning()
