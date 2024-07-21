@@ -5,7 +5,8 @@ import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 export default defineConfig({
   main: {
-    plugins: [externalizeDepsPlugin()]
+    plugins: [externalizeDepsPlugin()],
+    envPrefix: ['VITE_', 'DATABASE_']
   },
   preload: {
     plugins: [externalizeDepsPlugin()]
