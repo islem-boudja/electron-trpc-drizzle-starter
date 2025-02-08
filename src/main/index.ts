@@ -20,7 +20,9 @@ function createWindow(): void {
   createIPCHandler({ router: appRouter, windows: [mainWindow] })
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
-    mainWindow.webContents.openDevTools()
+    if (is.dev) {
+      mainWindow.webContents.openDevTools()
+    }
   })
 
   mainWindow.webContents.setWindowOpenHandler((details) => {
