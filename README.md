@@ -1,10 +1,6 @@
 # Electron-tRPC-Drizzle Starter
 
 A starter template for building Electron applications with tRPC and Drizzle ORM .
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
 ## Features
 
 - Electron application with tRPC integration over IPC
@@ -32,10 +28,7 @@ Drizzle ORM was selected for its modern, TypeScript-first approach to database m
 - **Simplicity and Flexibility**: It offers a simple API for defining and interacting with database schemas, making it easy to use while remaining flexible.
 - **Compatibility**: Drizzle ORM works seamlessly with PostgreSQL, which is our database of choice for this template, running in a Docker container for development convenience.
 
- ## Prerequisites
-
-- [Node.js](https://nodejs.org/) and [Bun](https://bun.sh/)
-- [Docker](https://www.docker.com/) installed and running
+)
 
 ## Installation
 
